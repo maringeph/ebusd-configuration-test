@@ -22,7 +22,7 @@ r,,LiveMonitorMain,,71,,"B503","00",id,,UCH,0x39=Controller starting;0xf4=Standb
 w,,ReadLiveMonitorMain,,,,"B503","00",,m,HEX:1,,,,,,,,,,,,,,,,,,,,,
 # Test menu's on VWZ. The read commands imitate the button press/menu selection. Send fixed payload 03FFFF. ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 *r;u,,,,,,"B514",,,,,,,,,,,,,,,,,,,,,,,,,
-w,,ReadEEVPosition,Read T.008,,,B514,0515,,m,HEX:3,,,,,,,,,,,,,,,
+w,,ReadEEVPosition,Read T.008,,,B514,0515,,m,HEX:3,,,,,,,,,,,,,,,,,,,,,
 r,,EEVPosition,T.008 value,,,B514,0515,,,IGN:2,,,,,,UIN,,,,,,,,,,,,,,,
 w,,ReadCompressorExitTemp,Read T.026,,,B514,0537,,m,HEX:3,,,,,,,,,,,,,,,,,,,,,
 r,,CompressorExitTemp,T.026 value,,,B514,0537,,,IGN:2,,,,,,SIN,10,,,,,,,,,,,,,,,
